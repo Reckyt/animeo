@@ -18,7 +18,7 @@ export const ANIMEO: Animeo[] = [
     },
     {
         id: 2,
-        title: 'Animéo de AAAAAAA',
+        title: 'Animéo de BBBBBB',
         city: 'Bordeaux',
         date: new Date(),
         description:
@@ -33,7 +33,7 @@ export const ANIMEO: Animeo[] = [
     },
     {
         id: 3,
-        title: 'Animéo de AAAAAAA',
+        title: 'Animéo de CCCCCCCCCC',
         city: 'Bordeaux',
         date: new Date(),
         description:
@@ -48,7 +48,7 @@ export const ANIMEO: Animeo[] = [
     },
     {
         id: 4,
-        title: 'Animéo de AAAAAAA',
+        title: 'Animéo de DDDDDDDDDDDD',
         city: 'Bordeaux',
         date: new Date(),
         description:
@@ -63,7 +63,7 @@ export const ANIMEO: Animeo[] = [
     },
     {
         id: 5,
-        title: 'Animéo de AAAAAAA',
+        title: 'Animéo de EEEEEEEEEEE',
         city: 'Bordeaux',
         date: new Date(),
         description:
@@ -78,7 +78,7 @@ export const ANIMEO: Animeo[] = [
     },
     {
         id: 6,
-        title: 'Animéo de AAAAAAA',
+        title: 'Animéo de FFFFFFFFFF',
         city: 'Bordeaux',
         date: new Date(),
         description:
@@ -93,7 +93,7 @@ export const ANIMEO: Animeo[] = [
     },
     {
         id: 7,
-        title: 'Animéo de AAAAAAA',
+        title: 'Animéo de GGGGG',
         city: 'Bordeaux',
         date: new Date(),
         description:
@@ -108,7 +108,7 @@ export const ANIMEO: Animeo[] = [
     },
     {
         id: 8,
-        title: 'Animéo de AAAAAAA',
+        title: 'Animéo de HHHHHHHH',
         city: 'Bordeaux',
         date: new Date(),
         description:
@@ -123,7 +123,7 @@ export const ANIMEO: Animeo[] = [
     },
     {
         id: 9,
-        title: 'Animéo de AAAAAAA',
+        title: 'Animéo de IIIIIIIIIIIII',
         city: 'Bordeaux',
         date: new Date(),
         description:
@@ -138,7 +138,7 @@ export const ANIMEO: Animeo[] = [
     },
     {
         id: 10,
-        title: 'Animéo de AAAAAAA',
+        title: 'Animéo de JJJJJJJJ',
         city: 'Bordeaux',
         date: new Date(),
         description:
@@ -153,7 +153,7 @@ export const ANIMEO: Animeo[] = [
     },
     {
         id: 11,
-        title: 'Animéo de AAAAAAA',
+        title: 'Animéo de KKKKKKKKK',
         city: 'Bordeaux',
         date: new Date(),
         description:
@@ -168,7 +168,7 @@ export const ANIMEO: Animeo[] = [
     },
     {
         id: 12,
-        title: 'Animéo de AAAAAAA',
+        title: 'Animéo de LLLLLLLLL',
         city: 'Bordeaux',
         date: new Date(),
         description:
