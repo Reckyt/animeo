@@ -1,0 +1,20 @@
+nav {
+    width: 100%;
+}
+
+.header-nav {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-button {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    width: 95%;
+}
