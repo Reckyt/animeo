@@ -1,6 +1,6 @@
 import { Animeo } from './animeo';
 
-export const ANIMEO: Animeo[] = [
+export const ANIMEOS: Animeo[] = [
     {
         id: 1,
         title: 'Animéo de AAAAAAA',
