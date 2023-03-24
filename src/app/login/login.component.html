@@ -1,0 +1,21 @@
+<div class='container-login'>
+      <div class="title-login">
+        <h1>Service Animéo</h1>
+        <p>{{message}}</p>
+      </div>
+        <form #loginForm="ngForm">
+          <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" [(ngModel)]="email" name="email" required>
+          </div>
+          <div>
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password"  [(ngModel)]="password" name="password" required>
+          </div>
+        </form>
+      <div class="card-action center">
+        <a (click)="login()" *ngIf="!auth.isLoggedIn">Se connecter</a>
+        <a (click)="logout()" *ngIf="auth.isLoggedIn">Se déconnecter</a>
+      </div>
+</div>
+
