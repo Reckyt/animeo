@@ -4,19 +4,19 @@ import { Directive, ElementRef, HostListener, Input } from '@angular/core';
     selector: '[sizeAnimeoCard]',
 })
 export class AnimeoCardDirective {
-    // private defaultHeight: number = 180;
+    private defaultHeight: string = '180px';
 
-    // constructor(private el: ElementRef) {
-    //     this.setHeight(this.defaultHeight);
-    // }
+    constructor(private el: ElementRef) {
+        this.setHeight(this.defaultHeight);
+    }
 
-    // @Input('sizeAnimeoCard') height: number;
+    @Input('sizeAnimeoCard') height: string;
 
-    // @HostListener('click') onClick() {
-    //     this.setHeight(this.height || this.defaultHeight);
-    // }
+    @HostListener('click') onClick() {
+        this.setHeight(this.height || this.defaultHeight);
+    }
 
-    // setHeight(height: number) {
-    //     this.el.nativeElement.style.height = `${height}px`;
-    // }
+    setHeight(height: string) {
+        this.el.nativeElement.style.height = `${height}`;
+    }
 }

@@ -16,4 +16,9 @@ export class ListAnimeoComponent implements OnInit {
     ngOnInit() {
         this.animeoList = this.animeoService.getAnimeoList();
     }
+
+    test(card: any) {
+        console.log('🔥 ~ card:', card);
+        card.animeoList.el.nativeElement.style.height = `600px`;
+    }
 }
