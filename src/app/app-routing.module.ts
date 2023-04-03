@@ -3,7 +3,7 @@ import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { AuthGuard } from './auth.guard';
-import { HeaderComponent } from './header/header.component';
+import { HeaderComponent } from './component/organisms/header/header.component';
 import { NoAuthGuard } from './noauth.guard';
 import { ListAnimeoComponent } from './animeo/list-animeo/list-animeo.component';
 

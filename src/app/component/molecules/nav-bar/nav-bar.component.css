@@ -8,13 +8,3 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-
-.container-button {
-    width: 20%;
-    display: flex;
-    justify-content: space-between;
-}
-
-hr {
-    width: 95%;
-}
