@@ -13,11 +13,11 @@ export class NoAuthGuard implements CanActivate {
   ) {}
 
   canActivate():boolean{
+
     if(!this.authService.isLoggedIn){
       return true
     }
 
-    // this.router.navigate(['/login']);
     return false;
   }
   

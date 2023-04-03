@@ -8,7 +8,11 @@ import { NoAuthGuard } from './noauth.guard';
 import { ListAnimeoComponent } from './animeo/list-animeo/list-animeo.component';
 
 const routes: Routes = [
-    { path: '', redirectTo: 'animeos', pathMatch: 'full' },
+    { 
+      path: '', 
+      redirectTo: 'animeos',
+      pathMatch: 'full' 
+    },
     {
         path: 'login',
         component: LoginComponent,
