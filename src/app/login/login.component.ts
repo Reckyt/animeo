@@ -38,10 +38,10 @@ export class LoginComponent implements OnInit {
       this.setMessage();
       console.log('🏞🎆🏂 ~ LoginComponent ~ isLoggedIn => ', isLoggedIn);
       if(isLoggedIn){
-        this.router.navigate(['/home']);
+        this.router.navigate(['/animeos']);
       }else{
         this.password = '';
-        this.router.navigate(['login']);
+        this.router.navigate(['/login']);
       }
     })
   }
