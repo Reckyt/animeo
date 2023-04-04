@@ -6,10 +6,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
-import { NavBarComponent } from './component/molecules/nav-bar/nav-bar.component';
+// Atoms
 import { LogoComponent } from './component/atoms/logo/logo.component';
+import { EmailFieldComponent } from './component/atoms/email-field/email-field.component';
+// Molecules
+import { LabelFieldComponent } from './component/atoms/label-field/label-field.component';
+import { NavBarComponent } from './component/molecules/nav-bar/nav-bar.component';
+import { InputEmailComponent } from './component/molecules/input-email/input-email.component';
+//Organisms
+import { LoginComponent } from './component/organisms/login/login.component';
 
 @NgModule({
     declarations: [
@@ -20,6 +26,9 @@ import { LogoComponent } from './component/atoms/logo/logo.component';
         ButtonComponent,
         NavBarComponent,
         LogoComponent,
+       EmailFieldComponent,
+       LabelFieldComponent,
+       InputEmailComponent,
     ],
     imports: [BrowserModule, FormsModule, AppRoutingModule],
     providers: [],

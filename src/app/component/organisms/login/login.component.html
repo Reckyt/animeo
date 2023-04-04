@@ -5,13 +5,14 @@
       </div>
         <form #loginForm="ngForm">
           <div>
-                <label for="email">Email</label>
-                <input type="text" id="email" [(ngModel)]="email" name="email" required>
+                <!-- <label for="email">Email</label> -->
+                <!-- <input type="text" id="email" [(ngModel)]="email" name="email" required> -->
+                <app-input-email [email]="email" [password]="password"></app-input-email>
           </div>
-          <div>
+          <!-- <div>
                 <label for="password">Mot de passe</label>
                 <input type="password" id="password"  [(ngModel)]="password" name="password" required>
-          </div>
+          </div> -->
         </form>
       <div class="card-action center">
         <a (click)="login()" *ngIf="!auth.isLoggedIn">Se connecter</a>

@@ -1,7 +1,7 @@
 import { AnimeoComponent } from './animeo/animeo.component';
 import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './component/organisms/login/login.component';
 import { AuthGuard } from './auth.guard';
 import { HeaderComponent } from './component/organisms/header/header.component';
 import { NoAuthGuard } from './noauth.guard';
